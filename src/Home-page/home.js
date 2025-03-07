@@ -1,3 +1,4 @@
+import "./home.css";
 import image from "./background.jpg";
 
 export default function Home() {
