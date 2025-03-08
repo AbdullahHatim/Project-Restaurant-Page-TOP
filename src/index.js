@@ -4,9 +4,7 @@ import Menu from "./Menu-page/menu.js";
 import Contact from "./Contact-page/contact.js";
 import About from "./About-page/about.js";
 
-console.log("Hello Resturant!");
-
-Home();
+Menu();
 
 document.querySelector(".home").onclick = Home;
 document.querySelector(".menu").onclick = Menu;

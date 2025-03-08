@@ -1,0 +1,35 @@
+.menu-container {
+  padding: 20px;
+  columns: 400px;
+}
+
+.menu-item {
+  width: 100%;
+  margin-bottom: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  height: fit-content; 
+}
+
+
+.menu-item table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+.menu-item th, .menu-item td {
+  padding: 8px 12px;
+  text-align: left;
+}
+
+
+.menu-item thead th[colspan="2"] {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  font-size: 1.2em;
+}
